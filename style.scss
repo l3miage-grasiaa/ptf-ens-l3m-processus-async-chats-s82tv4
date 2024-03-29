@@ -1,0 +1,13 @@
+section {
+  display: flex;
+  flex-flow: row nowrap;
+
+  &:hover {
+    background-color: lightgreen;
+  }
+
+  > label {
+    flex: 1 1;
+  }
+
+}
